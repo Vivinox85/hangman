@@ -1,0 +1,25 @@
+﻿<Window x:Class="HangManZ2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HangManZ2"
+        mc:Ignorable="d"
+        Title="Hangman" Height="600" Width="800" Loaded="Window_Loaded">
+    <StackPanel>
+        <Menu>
+            <MenuItem Header="_Spiel">
+                <MenuItem Name="miSpielNeu" Click="miSpielNeu_Click" Header="_Neu"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <Canvas Name="canvPaint" Height="300" Margin="0,8,0,0">
+            
+        </Canvas>
+        <TextBox Name="txtAusgabe" Width="Auto" Height="187" Margin="0,8,0,0"></TextBox>
+        <StackPanel Orientation="Horizontal" Margin="0,8,0,0">
+            <Label Margin="0,0,10,0">Ihr Tipp: </Label>
+            <TextBox Name="txtEingabe" Width="650" KeyDown="txtEingabe_KeyDown"></TextBox>
+            <Button Name="btnAbsenden" Content="Absenden" Width="62" Click="Button_Click" Margin="5,0,0,0"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
