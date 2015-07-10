@@ -43,3 +43,6 @@ D:\SeviUmschulung\SeviUmschulung\HangManZ2\HangManZ2\HangManZ2\obj\Debug\HangMan
 C:\Users\Severin\Documents\Visual Studio 2015\Projects\HangManZ2\HangManZ2\HangManZ2\bin\Debug\HangManZ2.exe.config
 C:\Users\Severin\Documents\Visual Studio 2015\Projects\HangManZ2\HangManZ2\HangManZ2\obj\Debug\HangManZ2.exe
 C:\Users\Severin\Documents\Visual Studio 2015\Projects\HangManZ2\HangManZ2\HangManZ2\obj\Debug\HangManZ2.pdb
+C:\Users\Severin\Documents\github\hangman\HangManZ2\bin\Debug\HangManZ2.exe.config
+C:\Users\Severin\Documents\github\hangman\HangManZ2\obj\Debug\HangManZ2.exe
+C:\Users\Severin\Documents\github\hangman\HangManZ2\obj\Debug\HangManZ2.pdb
